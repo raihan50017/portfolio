@@ -39,7 +39,6 @@ export function AboutSection() {
 						</p>
 					</div>
 				</div>
-
 				<TimeLine />
 			</section>
 		</LazyMotion>

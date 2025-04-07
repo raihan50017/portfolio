@@ -8,7 +8,7 @@ import { BsArrowReturnLeft } from "react-icons/bs";
 import { initial, animate, exit, transition } from "utils";
 import { MENU_OPTIONS, SITE_ROUTES, SITE_STRINGS } from "../constants";
 
-export function Menu({ onClick = () => {} }) {
+export function Menu({ onClick = () => { } }) {
 	let content, mainMenu, backMenu;
 	const pathname = usePathname();
 	const { scrollToEl } = useScrollTo();
